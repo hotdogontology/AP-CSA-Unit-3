@@ -1,7 +1,7 @@
 
-# Unit 3 Java Programming Project
+# Unit 3 - If Statements and Booleans
 
-This project is designed for Mr. Hare's APCS-A, focusing on Unit 3 concepts such as conditional statements, Boolean expressions, and logical operators. The project includes a set of methods that students need to implement, along with unit tests to verify their functionality.
+This project is designed for AP CS-A, focusing on Unit 3 concepts such as conditional statements, Boolean expressions, and logical operators. The project includes a set of methods that students need to implement, along with unit tests to verify their functionality.
 
 ## Project Structure
 
@@ -9,26 +9,34 @@ This project is designed for Mr. Hare's APCS-A, focusing on Unit 3 concepts such
 - **`Unit3Test.java`**: JUnit test cases for each method in `Unit3.java`. These tests validate the correctness of the implemented methods.
 - **`pom.xml`**: Maven configuration file that manages dependencies and plugins required to build and run the project.
 
-## Prerequisites
+## Prerequisites for Local Work
 
 - Java 17 (or compatible version)
 - Maven 3.x
 
-## Getting Started
+You can also use Codespaces and the environment will load the required packages automatically upon prompt.
+
+## Instructions
 
 ### Accept the Project
 
-Use link found in Google Classroom to accept in GitHub Classroom
+Use link found in Canvas to accept in GitHub Classroom. You may have to check your GitHub account associated email or the GitHub inbox tray to have access to the assignment.
 
 ### Clone the Repository
 
-Clone this repository to your local machine using GitHub Desktop.
+Open the repository in GitHub Codespaces. (Or clone to your local machine and use your preferred IDE.)
 
+### Complete the Methods
+
+Write the required code for the methods as described by each problem.
 
 ### Run Tests
 
 Run the JUnit tests to verify your implementations
 
+### Push Work to the Repository
+
+When your code passes all tests, Commit and Sync to push your answers to the Repo for submission.
 
 ## Method Descriptions
 
@@ -49,11 +57,14 @@ Students need to implement the following methods in `Unit3.java`:
 - Misunderstanding the use of logical operators (`&&`, `||`).
 - Failing to apply short-circuit evaluation correctly.
 
-## Contributing
+## Grading
+Your grade will be based on the correctness of your implementations as verified by the unit tests. Make sure all methods are completed and that all tests pass.
 
-Feel free to submit issues or pull requests if you find bugs or have suggestions for improvement.
-
+## Honor Code
+Remember to adhere to the GSSM Academic Integrity Policy. Do not copy code from others or AI, and ensure all work is your own.
 
 ## Contact
+If you have any questions or need assistance, send me an email or come to office hours. 
 
-For any questions, please contact [kevin@csplusplus.com](mailto:kevin@csplusplus.com)
+## Acknowledgements
+This project has been adapted from the repo generously shared by [Kevin Hare](https://csplusplus.com/).
